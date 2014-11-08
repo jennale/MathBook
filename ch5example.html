@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>What did you do in math today?</title><!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"><!-- Fonts & CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-book.css" rel="stylesheet">
+    <script>
+		var chapter,section,subsection;
+            chapter    = '5';       //Should be a number
+            section    = 'B';       //Should be a letter
+            subsection = '0';       //Should be a number
+    </script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="mask-box">
+            <div id="mask"></div><button class="toggler" id="button-toggle"><span class="glyphicon glyphicon-th-list"></span></button>
+        </div><!-- MURAL -->
+
+        <div class="header alt vert min" id="mural">
+            <div class="min" id="logo">
+                <a href="index.html"><img alt="logoA" src="img/logo.png"></a>
+            </div>
+        </div><!-- /.MURAL -->
+        <!-- CHAPTER MENU -->
+
+        <div id="stickyAnchor"></div>
+
+        <div class="accordion accordion-group" id="chapter-menu">
+            <div class="accordion-heading" id="main-menu-heading">
+                <a class="accordion-toggle collapsed" data-parent="#chapter-menu" data-toggle="collapse" href="#chapters"></a>
+            </div>
+
+            <div class="accordion-body collapse" id="chapters">
+                <div class="accordion-inner" id="chapters-inner"></div>
+            </div>
+        </div><!-- /.CHAPTER MENU --><!-- MAIN CONTAINER -->
+
+        <div class="container" id="content-container">
+            <!-- SECONDARY CONTAINER -->
+
+            <div class="row" id="secondary-container">
+                <!-- SIDEBAR -->
+
+                <div id="sidebar-box">
+                    <div id="sidebar"></div>
+                </div><!-- /.SIDEBAR -->
+
+                <div id="onClick">
+                    <!-- BREADCRUMB -->
+
+                    <div id="breadcrumb-bar">
+                        <ol class="breadcrumb style">
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Chapter 5: Sample</a>
+                            </li>
+
+                            <li>
+                                <a href="#">C: Sample</a>
+                            </li>
+
+                            <li>
+                                <a href="#">0: Teaching Notes</a>
+                            </li>
+                        </ol>
+                    </div><!-- /.BREADCRUMB -->
+                    <!-- CONTENT CONTAINER -->
+
+                    <div class="content-container" id="content">
+                        <div class="content-block">
+                            <div class="content-block-title accent-font">
+                                <h1>Sample Page</h1>
+                            </div><!-- End of content block title -->
+
+                            <div class="content-block-body">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div><!-- End of content body -->
+                        </div><!-- End of content block -->
+
+                    </div><!-- /.CONTENT CONTAINER -->
+                </div><!-- /.SECONDARY CONTAINER -->
+            </div><!-- CHAPTERS SECTION END -->
+        </div><!-- /.MAIN CONTANIER -->
+
+        <section class="" id="footer"></section>
+    </div><!-- /.WRAPPER -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.mobile.custom.min.js"></script>
+    <script src="js/nicescroll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>

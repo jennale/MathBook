@@ -1,0 +1,14 @@
+<a href="./ch1example.html"><div id="chapter1" class="chapter"><h3 class="container primary-font">Chapter 1: Numbers</h3></div></a>
+<a href="./ch2example.html"><div id="chapter2" class="chapter"><h3 class="container primary-font">Chapter 2: Algebra</h3></div></a>
+<a href="./ch3example.html"><div id="chapter3" class="chapter"><h3 class="container primary-font">Chapter 3: Measurement</h3></div></a>
+<a href="./ch4example.html"><div id="chapter4" class="chapter"><h3 class="container primary-font">Chapter 4: Geometry</h3></div></a>
+<a href="./ch5example.html"><div id="chapter5" class="chapter"><h3 class="container primary-font">Chapter 5: Data & Probability</h3></div></a>
+
+<script>
+		/**CHAPTERMENU**/
+$(document).ready(function(){	
+	window.color = ($("#chapter"+chapter).css("background-color"));		
+	$("#chapter"+chapter+" h3").append('<span class="glyphicon glyphicon-chevron-down pull-right"></span>');
+	$("#chapter"+chapter).detach().appendTo("#main-menu-heading .accordion-toggle").addClass("active");
+});
+</script>

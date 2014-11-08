@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>What did you do in math today?</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"><!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-main.css" rel="stylesheet">
+    
+     <link rel="shortcut icon" href="favicon.ico">
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+    <script type="text/javascript">
+    $(document).ready(function() {
+    	var hori = $(window).width();
+    	var vert = $(window).height();
+    	var muralloader = $("#mural,#loader");
+
+    	muralloader.css("height", vert - $("#slogan").height());
+    	muralloader.css("min-height",logo.height()+70);
+    });
+    </script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>      
+    <![endif]-->
+</head>
+
+<body>
+    <!--   MURAL -->
+
+    <div class=" header alt vert" id="mural">
+
+    <div id="loader"></div><img id="bgSun" src="img/HomepageMural/muralbg-sun.png">
+
+    
+
+    <div class="bg clouds"></div>
+
+    <div class="background">
+    	<img class="anim" id="bgLand1" src="img/HomepageMural/muralbg-land1.png"> 
+    	<img class="anim" id="bgWaterfall" src="img/HomepageMural/muralbg-water.png"> 
+    	<img class="anim" id="bgForest" src="img/HomepageMural/muralbg-forest.png"> 
+    <img id="bgLand2" src="img/HomepageMural/muralbg-land2.png">
+    </div>
+
+    <div class="animPotato anim"></div>
+
+    <div class="animChicky anim"><img src="img/HomepageMural/butterfree.png"></div>
+
+    <div class="animSnail anim"></div>
+
+    <div class="animBlueSquid anim"><img src="img/HomepageMural/squid.png"></div>
+
+    <div class="animOctopus anim"><img class="capt" src="img/HomepageMural/captain.png"> 
+    <img class="arrow anim" src="img/HomepageMural/arrow.png"></div>
+    
+    <img alt="What did you do in math today?" id="logo" src="img/logo.png"></div><!-- END-MURAL   -->
+
+    <div id="sloganAnchor"></div>
+
+    <div class="container col-xs-12 text-center accent-font" id="slogan">
+        <h3>What -will- you do in math today??</h3>
+    </div>
+
+    <div id="sectionsAnchor"></div>
+    
+    <!-- CHAPTER SECTIONS BEGIN -->
+	<section id="chapter1">
+		<div class="container">
+			<div class="row">
+	 			<div class="chapter-sum col-sm-8">
+					<div class="chapter-num"><h1>Chapter 1</h1></div>
+					<div class="chapter-name accent-font"><h3>Numbers</h3></div> 			
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+	 			<div class="chapter-icon"><div class="animOctopus"></div></div>
+	 			<a href="ch1example.html" toon="octo" class="btn btn-default btn-lg accent-font">Let's go ></a>
+			</div>
+		</div>
+	</section>
+	 	
+	<section id="chapter2">
+		<div class="container">
+			<div class="row">
+	 			<div class="chapter-sum col-sm-8">
+					<div class="chapter-num"><h1>Chapter 2</h1></div>
+					<div class="chapter-name accent-font"><h3>Algebra</h3></div> 			
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+	 			<div class="chapter-icon"><div class="animBlueSquid"></div>	</div>
+	 			<a href="ch2example.html" toon="squid" class="btn btn-default btn-lg accent-font">Let's go ></a>
+			</div>
+		</div>
+	</section>
+	 	 	
+	<section id="chapter3">
+		<div class="container">
+			<div class="row">
+	 			<div class="chapter-sum col-sm-8">
+	 				<div class="chapter-num"><h1>Chapter 3</h1></div>
+	 				<div class="chapter-name accent-font"><h3>Measurement</h3></div> 			
+	 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	 			</div>
+	 			<div class="chapter-icon"><div class="animCaptain"></div><br></div>
+	 			<a href="ch3example.html" toon="capt" class="btn btn-default btn-lg accent-font">Let's go ></a>
+			</div>
+		</div>
+	</section>
+	 	
+	 	
+	<section id="chapter4">
+		<div class="container">
+			<div class="row">
+	 			<div class="chapter-sum col-sm-8">
+					<div class="chapter-num"><h1>Chapter 4</h1></div>
+					<div class="chapter-name accent-font"><h3>Geometry</h3></div> 			
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+	 			<div class="chapter-icon" tl="5"><div class="animSnail"></div></div>
+	 			<a href="ch4example.html" toon="snail" class="btn btn-default btn-lg accent-font">Let's go ></a>
+			</div>
+		</div>
+	</section>
+	 	 
+	 	 	
+	<section id="chapter5">
+		<div class="container">
+			<div class="row">
+	 			<div class="chapter-sum col-sm-8">
+					<div class="chapter-num"><h1>Chapter 5</h1></div>
+					<div class="chapter-name accent-font"><h3>Data & Probability</h3></div> 			
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="chapter-icon" ><div class="animPotato"></div></div>
+	 			<a href="ch5example.html" toon="potato" class="btn btn-default btn-lg accent-font">Let's go ></a>
+			</div>
+		</div>
+	</section><!-- CHAPTERS SECTION END -->
+
+    <section class="main" id="footer"></section>
+    
+    <script src="js/jquery.mobile.custom.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script> 
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TimelineMax.min.js"></script>
+    <script src="js/mural.min.js"></script>
+</body>
+</html>
